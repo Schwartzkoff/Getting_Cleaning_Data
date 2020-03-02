@@ -4,6 +4,7 @@ Getting and Cleaning Data Course Project
 After running script run_analysis.R you will get the data set described in CodeBook.md file.
 This is the contanin of  run_analysis.R: 
 
+```
 require("dplyr")
 
 temp_file <- tempfile()
@@ -56,4 +57,5 @@ data <- rbind(test_data, train_data)
 
 # creates a independent tidy data set with the average of each variable for each activity and each subject.
 tidy <- data %>% group_by(Activity, Subject) %>% summarize_all(mean)
+```
 

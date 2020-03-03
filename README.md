@@ -2,7 +2,9 @@
 Getting and Cleaning Data Course Project
 
 After running script run_analysis.R you will get the data set described in CodeBook.md file.
-This is the contanin of  run_analysis.R: 
+
+
+This is the contain of run_analysis.R:
 
 ```
 require("dplyr")
